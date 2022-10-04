@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "Bank Account Practice",
+    "scripts": {
+      "lint": "htmllint {*.html,./**/*.html} && stylelint ./**/*.css && eslint .",
+      "test": "mocha --no-timeouts",
+      "start": "cd . && http-server -c-1",
+      "javascripting": "javascripting",
+      "functional-javascript": "functional-javascript"
+    },
+    "dependencies": {
+      "eslint": "^8.24.0",
+      "functional-javascript-workshop": "^0.0.23",
+      "htmllint-cli": "github:kevincolten/htmllint-cli",
+      "http-server": "^14.1.1",
+      "javascripting": "^2.4.0",
+      "jsdom": "^20.0.0",
+      "mocha": "^10.0.0",
+      "postcss-html": "^0.34.0",
+      "stylelint": "^14.13.0"
+    }
+  }
